@@ -2,9 +2,10 @@ package com.wendergalan.pontointeligente.dtos
 
 import javax.validation.constraints.NotEmpty
 
+
 /**
  * Ponto Inteligente
- * TDR Informática Ltda
+ * Wender Galan LTDA
  * Todos os direitos reservados ©
  **********************************************
  * Nome do arquivo: LancamentoDto.java

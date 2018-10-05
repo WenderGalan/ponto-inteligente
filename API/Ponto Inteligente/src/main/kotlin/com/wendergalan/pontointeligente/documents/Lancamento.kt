@@ -25,3 +25,4 @@ data class Lancamento(
         val localizacao: String? = "",
         @Id val id: String? = null
 )
+

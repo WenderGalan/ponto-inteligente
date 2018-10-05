@@ -21,7 +21,6 @@ interface FuncionarioRepository : MongoRepository<Funcionario, String> {
 
     fun findByCpf(cpf: String): Funcionario
 
-    @Query(value = "{id : ?0}")
-    fun findOne(id: String): Funcionario
-
+    @Query(" 'id' : '?0' ")
+    fun buscarPorId(id: String): Funcionario
 }
