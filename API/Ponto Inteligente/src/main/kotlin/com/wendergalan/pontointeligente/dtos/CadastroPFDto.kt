@@ -42,7 +42,7 @@ data class CadastroPFDto(
         val empresaId: String = "",
 
         val valorHora: String? = null,
-        val qtdHotasTrabalhoDia: String? = null,
+        val qtdHorasTrabalhoDia: String? = null,
         val qtdHorasAlmoco: String? = null,
         val id: String? = null
 

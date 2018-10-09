@@ -14,7 +14,7 @@ import java.util.*
  * Criado por : Wender Galan
  * Data da criação : 05/10/2018
  * Observação :
- **********************************************
+ **********************************************5bbcb580597d4eb2117323c5
  */
 @Document
 data class Lancamento(

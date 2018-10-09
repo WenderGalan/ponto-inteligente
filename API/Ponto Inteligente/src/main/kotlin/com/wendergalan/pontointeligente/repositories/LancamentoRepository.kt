@@ -21,6 +21,6 @@ interface LancamentoRepository : MongoRepository<Lancamento, String> {
 
     fun findByFuncionarioId(funcionarioId: String, pageable: Pageable): Page<Lancamento>
 
-    @Query(value = "{_id : ?0}")
+    @Query(value = "{'_id' : 'ObjectId(\"5bbcb580597d4eb2117323c5\")'}")
     fun findOne(id: String): Lancamento
 }
