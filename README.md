@@ -13,7 +13,7 @@ O projeto consiste em criar uma API que registraria ponto de funcionários em de
     
 - ### License:
 ```
-Copyright 2018 Wender Galan - Matheus Pimentel
+Copyright 2018 Wender Galan
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
